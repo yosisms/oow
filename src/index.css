@@ -1,15 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;400;500;600;700&family=Assistant:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    direction: rtl;
-  }
-
-  body {
-    @apply bg-wedding-cream text-gray-800 font-hebrew;
-  }
+body {
+  font-family: 'Frank Ruhl Libre', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
